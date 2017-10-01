@@ -1,0 +1,106 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIClient"
+provides-nominal:
+- "13UsersAndPosts9APIClientC"
+provides-member:
+- ["13UsersAndPosts9APIClientC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIClient"
+- "Error"
+- "NSNumber"
+- "NSObject"
+- "Post"
+- "User"
+- !private "WebService"
+depends-member:
+- ["13UsersAndPosts9APIClientC", "Error"]
+- ["13UsersAndPosts9APIClientC", "NSNumber"]
+- ["13UsersAndPosts9APIClientC", "Post"]
+- ["13UsersAndPosts9APIClientC", "User"]
+- !private ["13UsersAndPosts9APIClientC", "WebService"]
+- ["13UsersAndPosts9APIClientC", "deinit"]
+- ["13UsersAndPosts9APIClientC", "getAllPosts"]
+- ["13UsersAndPosts9APIClientC", "getAllUsers"]
+- ["13UsersAndPosts9APIClientC", "init"]
+- !private ["s7CVarArgP", "Post"]
+- !private ["s7CVarArgP", "User"]
+- !private ["s7CVarArgP", "WebService"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "Post"]
+- !private ["s28CustomDebugStringConvertibleP", "User"]
+- !private ["s28CustomDebugStringConvertibleP", "WebService"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "Post"]
+- !private ["s23CustomStringConvertibleP", "User"]
+- !private ["s23CustomStringConvertibleP", "WebService"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "Post"]
+- !private ["s9EquatableP", "User"]
+- !private ["s9EquatableP", "WebService"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "Post"]
+- !private ["s8HashableP", "User"]
+- !private ["s8HashableP", "WebService"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- !private ["13UsersAndPosts12IdentifiableP", "all"]
+- !private ["13UsersAndPosts12IdentifiableP", "posts"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "Post"]
+- ["So8NSObjectC", "User"]
+- !private ["So8NSObjectC", "WebService"]
+- ["So8NSObjectC", "getAllPosts"]
+- ["So8NSObjectC", "getAllUsers"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Post"]
+- !private ["So16NSObjectProtocolP", "User"]
+- !private ["So16NSObjectProtocolP", "WebService"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["13UsersAndPosts4PostV", "posts"]
+- !private ["13UsersAndPosts4UserV", "all"]
+- !private ["13UsersAndPosts10WebServiceC", "init"]
+- !private ["13UsersAndPosts10WebServiceC", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "User"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WebService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "13UsersAndPosts9APIClientC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "13UsersAndPosts12IdentifiableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "13UsersAndPosts4PostV"
+- !private "13UsersAndPosts4UserV"
+- !private "13UsersAndPosts10WebServiceC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e71195d688d0ddb8bd9dc99f761fee3e"

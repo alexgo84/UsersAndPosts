@@ -1,0 +1,120 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UsersAndPostsTests"
+provides-nominal:
+- "18UsersAndPostsTestsAAC"
+provides-member:
+- ["18UsersAndPostsTestsAAC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testExample"
+- "testPerformanceExample"
+depends-top-level:
+- "UsersAndPostsTests"
+- "XCTestCase"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "measure"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "tearDown"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "measure"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "measure"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "measure"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "tearDown"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "measure"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "tearDown"]
+- ["s8HashableP", ""]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "measure"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testExample"]
+- ["So8NSObjectC", "testPerformanceExample"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "measure"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- ["So16NSObjectProtocolP", ""]
+- ["18UsersAndPostsTestsAAC", "deinit"]
+- ["18UsersAndPostsTestsAAC", "init"]
+- !private ["18UsersAndPostsTestsAAC", "measure"]
+- ["18UsersAndPostsTestsAAC", "setUp"]
+- ["18UsersAndPostsTestsAAC", "tearDown"]
+- ["18UsersAndPostsTestsAAC", "testExample"]
+- ["18UsersAndPostsTestsAAC", "testPerformanceExample"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "measure"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "tearDown"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "measure"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "measure"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testExample"]
+- ["So6XCTestC", "testPerformanceExample"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "measure"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testExample"]
+- ["So10XCTestCaseC", "testPerformanceExample"]
+- ["So10XCTestCaseC", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "measure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "18UsersAndPostsTestsAAC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/alexgordon/Developer/UsersAndPosts/Build/Products/Debug-iphonesimulator/UsersAndPosts.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "182969330d52a74628f74a3e9f873629"

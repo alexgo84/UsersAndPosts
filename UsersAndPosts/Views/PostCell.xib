@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="137" id="kgf-gs-0BR" customClass="PostCell" customModule="UsersAndPosts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kgf-gs-0BR" id="WYz-Po-jnz">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="136.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacingType="standard" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D00-kz-KsT">
+                        <rect key="frame" x="8" y="8" width="356" height="120.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqx-kl-XJa">
+                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="96.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-aA-vL1" userLabel="Body Label">
+                                <rect key="frame" x="0.0" y="100" width="0.0" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D00-kz-KsT" firstAttribute="leading" secondItem="WYz-Po-jnz" secondAttribute="leading" constant="8" id="BQH-Fa-3Vt"/>
+                    <constraint firstItem="D00-kz-KsT" firstAttribute="top" secondItem="WYz-Po-jnz" secondAttribute="top" constant="8" id="LNH-W1-MVz"/>
+                    <constraint firstAttribute="bottom" secondItem="D00-kz-KsT" secondAttribute="bottom" constant="8" id="Oya-lx-uxg"/>
+                    <constraint firstAttribute="trailing" secondItem="D00-kz-KsT" secondAttribute="trailing" constant="8" id="pm4-8R-MVG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bodyLabel" destination="p3s-aA-vL1" id="rcz-HL-ZAW"/>
+                <outlet property="titleLabel" destination="Iqx-kl-XJa" id="d3G-Ac-lOe"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="106.5"/>
+        </tableViewCell>
+    </objects>
+</document>

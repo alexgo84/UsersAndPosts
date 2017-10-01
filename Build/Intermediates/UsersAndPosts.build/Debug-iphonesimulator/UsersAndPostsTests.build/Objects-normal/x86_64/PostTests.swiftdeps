@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostTests"
+provides-nominal:
+- "18UsersAndPostsTests04PostD0C"
+provides-member:
+- ["18UsersAndPostsTests04PostD0C", ""]
+provides-dynamic-lookup:
+- "postJSON"
+- "setUp"
+- "testPostDeserialization"
+depends-top-level:
+- "AssignmentPrecedence"
+- "JSONDict"
+- !private "NSNumber"
+- !private "Post"
+- "PostTests"
+- !private "StringLiteralType"
+- !private "StubLoader"
+- !private "XCTAssertEqual"
+- !private "XCTAssertNotNil"
+- !private "XCTFail"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "Post"]
+- !private ["s7CVarArgP", "StubLoader"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertNotNil"]
+- !private ["s7CVarArgP", "XCTFail"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "postJSON"]
+- !private ["s7CVarArgP", "setUp"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "Post"]
+- !private ["s28CustomDebugStringConvertibleP", "StubLoader"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNotNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTFail"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "postJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "Post"]
+- !private ["s23CustomStringConvertibleP", "StubLoader"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNotNil"]
+- !private ["s23CustomStringConvertibleP", "XCTFail"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "postJSON"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSNumber"]
+- !private ["s9EquatableP", "Post"]
+- !private ["s9EquatableP", "StubLoader"]
+- !private ["s9EquatableP", "XCTAssertEqual"]
+- !private ["s9EquatableP", "XCTAssertNotNil"]
+- !private ["s9EquatableP", "XCTFail"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "postJSON"]
+- !private ["s9EquatableP", "setUp"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NSNumber"]
+- !private ["s8HashableP", "Post"]
+- !private ["s8HashableP", "StubLoader"]
+- !private ["s8HashableP", "XCTAssertEqual"]
+- !private ["s8HashableP", "XCTAssertNotNil"]
+- !private ["s8HashableP", "XCTFail"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "postJSON"]
+- !private ["s8HashableP", "setUp"]
+- ["s8HashableP", ""]
+- !private ["13UsersAndPosts12IdentifiableP", "body"]
+- !private ["13UsersAndPosts12IdentifiableP", "id"]
+- !private ["13UsersAndPosts12IdentifiableP", "init"]
+- !private ["13UsersAndPosts12IdentifiableP", "title"]
+- !private ["13UsersAndPosts12IdentifiableP", "userId"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "JSONDict"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "Post"]
+- !private ["So8NSObjectC", "StubLoader"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertNotNil"]
+- !private ["So8NSObjectC", "XCTFail"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "postJSON"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "testPostDeserialization"]
+- !private ["So16NSObjectProtocolP", "NSNumber"]
+- !private ["So16NSObjectProtocolP", "Post"]
+- !private ["So16NSObjectProtocolP", "StubLoader"]
+- !private ["So16NSObjectProtocolP", "XCTAssertEqual"]
+- !private ["So16NSObjectProtocolP", "XCTAssertNotNil"]
+- !private ["So16NSObjectProtocolP", "XCTFail"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "postJSON"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["13UsersAndPosts4PostV", "body"]
+- !private ["13UsersAndPosts4PostV", "id"]
+- !private ["13UsersAndPosts4PostV", "init"]
+- !private ["13UsersAndPosts4PostV", "title"]
+- !private ["13UsersAndPosts4PostV", "userId"]
+- ["18UsersAndPostsTests04PostD0C", "JSONDict"]
+- !private ["18UsersAndPostsTests04PostD0C", "NSNumber"]
+- !private ["18UsersAndPostsTests04PostD0C", "Post"]
+- !private ["18UsersAndPostsTests04PostD0C", "StubLoader"]
+- !private ["18UsersAndPostsTests04PostD0C", "XCTAssertEqual"]
+- !private ["18UsersAndPostsTests04PostD0C", "XCTAssertNotNil"]
+- !private ["18UsersAndPostsTests04PostD0C", "XCTFail"]
+- ["18UsersAndPostsTests04PostD0C", "deinit"]
+- ["18UsersAndPostsTests04PostD0C", "init"]
+- ["18UsersAndPostsTests04PostD0C", "postJSON"]
+- ["18UsersAndPostsTests04PostD0C", "setUp"]
+- ["18UsersAndPostsTests04PostD0C", "testPostDeserialization"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["18UsersAndPostsTests10StubLoaderV", "init"]
+- !private ["18UsersAndPostsTests10StubLoaderV", "postJSONFromStub"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So11XCTActivityP", "NSNumber"]
+- !private ["So11XCTActivityP", "Post"]
+- !private ["So11XCTActivityP", "StubLoader"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertNotNil"]
+- !private ["So11XCTActivityP", "XCTFail"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "postJSON"]
+- !private ["So11XCTActivityP", "setUp"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "NSNumber"]
+- !private ["So17XCTWaiterDelegateP", "Post"]
+- !private ["So17XCTWaiterDelegateP", "StubLoader"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNotNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTFail"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "postJSON"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So6XCTestC", "JSONDict"]
+- !private ["So6XCTestC", "NSNumber"]
+- !private ["So6XCTestC", "Post"]
+- !private ["So6XCTestC", "StubLoader"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertNotNil"]
+- !private ["So6XCTestC", "XCTFail"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "postJSON"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "testPostDeserialization"]
+- ["So10XCTestCaseC", "JSONDict"]
+- !private ["So10XCTestCaseC", "NSNumber"]
+- !private ["So10XCTestCaseC", "Post"]
+- !private ["So10XCTestCaseC", "StubLoader"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertNotNil"]
+- !private ["So10XCTestCaseC", "XCTFail"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "postJSON"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "testPostDeserialization"]
+- ["So10XCTestCaseC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "StubLoader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNotNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTFail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postJSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "13UsersAndPosts12IdentifiableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "13UsersAndPosts4PostV"
+- "18UsersAndPostsTests04PostD0C"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "18UsersAndPostsTests10StubLoaderV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/alexgordon/Developer/UsersAndPosts/Build/Products/Debug-iphonesimulator/UsersAndPosts.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "8b36136ec6e7bc753cdd926cee6ce459"

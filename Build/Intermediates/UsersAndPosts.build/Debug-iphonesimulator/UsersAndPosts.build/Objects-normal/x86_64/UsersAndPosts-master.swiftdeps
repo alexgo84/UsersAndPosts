@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "ddbc45f58d15a8302e10f16e99c859c4"
+build_time: [1506887258, 678185000]
+inputs:
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/WebService.swift": [1506874755, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/ViewControllers/UserTableViewController.swift": [1506886514, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/CellConfigurator.swift": [1506880447, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/ViewControllers/PostTableViewController.swift": [1506887258, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/Post.swift": [1506873586, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/DataSource.swift": [1506883163, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/AppDelegate.swift": [1506886648, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Views/UserCell.swift": [1506793166, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/Resource.swift": [1506874443, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/APIClient.swift": [1506885668, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/User.swift": [1506880471, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/Company.swift": [1506880385, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Views/PostCell.swift": [1506793166, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/Address.swift": [1506880447, 0]
+  "/Users/alexgordon/Developer/UsersAndPosts/UsersAndPosts/Models/Geo.swift": [1506818672, 0]
