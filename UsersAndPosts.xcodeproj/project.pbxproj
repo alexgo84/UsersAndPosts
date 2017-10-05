@@ -21,7 +21,6 @@
 		754DED6D1F8160D2007A46B5 /* MalformedUserSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754DED6C1F8160D2007A46B5 /* MalformedUserSerializationTests.swift */; };
 		754DED711F8163FE007A46B5 /* StubLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754DED701F8163FE007A46B5 /* StubLoader.swift */; };
 		754DED731F8167A4007A46B5 /* UsersDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754DED721F8167A4007A46B5 /* UsersDataSourceTests.swift */; };
-		757ABE7E1F86825F00284015 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 757ABE7D1F86825F00284015 /* .gitignore */; };
 		758DAFC21F8009A3003E0B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DAFC11F8009A3003E0B6A /* AppDelegate.swift */; };
 		758DAFC91F8009A3003E0B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758DAFC71F8009A3003E0B6A /* Main.storyboard */; };
 		758DAFCB1F8009A3003E0B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758DAFCA1F8009A3003E0B6A /* Assets.xcassets */; };
@@ -70,7 +69,6 @@
 		754DED6C1F8160D2007A46B5 /* MalformedUserSerializationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalformedUserSerializationTests.swift; sourceTree = "<group>"; };
 		754DED701F8163FE007A46B5 /* StubLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubLoader.swift; sourceTree = "<group>"; };
 		754DED721F8167A4007A46B5 /* UsersDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDataSourceTests.swift; sourceTree = "<group>"; };
-		757ABE7D1F86825F00284015 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		758DAFBE1F8009A3003E0B6A /* UsersAndPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsersAndPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758DAFC11F8009A3003E0B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758DAFC81F8009A3003E0B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,18 +127,9 @@
 			path = Stubs;
 			sourceTree = "<group>";
 		};
-		757ABE7C1F86824C00284015 /* Git */ = {
-			isa = PBXGroup;
-			children = (
-				757ABE7D1F86825F00284015 /* .gitignore */,
-			);
-			path = Git;
-			sourceTree = "<group>";
-		};
 		758DAFB51F8009A2003E0B6A = {
 			isa = PBXGroup;
 			children = (
-				757ABE7C1F86824C00284015 /* Git */,
 				758DAFC01F8009A3003E0B6A /* UsersAndPosts */,
 				758DAFD71F8009A3003E0B6A /* UsersAndPostsTests */,
 				758DAFBF1F8009A3003E0B6A /* Products */,
@@ -319,7 +308,6 @@
 				758DAFCB1F8009A3003E0B6A /* Assets.xcassets in Resources */,
 				758DAFC91F8009A3003E0B6A /* Main.storyboard in Resources */,
 				758DAFF91F800C04003E0B6A /* PostCell.xib in Resources */,
-				757ABE7E1F86825F00284015 /* .gitignore in Resources */,
 				758DAFFB1F800C32003E0B6A /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
