@@ -29,8 +29,13 @@ class PostTableViewControllerTests: XCTestCase {
         
         XCTAssertEqual(sut.tableView.numberOfSections, 1)
         XCTAssertEqual(sut.tableView.visibleCells.count, 3)
+        
+        sut.clearData()
+        
+        XCTAssertEqual(sut.tableView.numberOfSections, 1)
+        XCTAssertEqual(sut.tableView.visibleCells.count, 0)
     }
-    
+
     func testDataNotLoadedFromFakeAPI() {
         sut.apiClient = apiClient
         apiClient.fail = true

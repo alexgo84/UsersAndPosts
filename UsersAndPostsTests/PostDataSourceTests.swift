@@ -20,7 +20,7 @@ class PostsDataSourceTests: XCTestCase {
         super.setUp()
         let post = StubLoader().postFromStub()
 
-        dataSource = DataSource<Post>(data: [post, post, post], dataType: DataType.posts)
+        dataSource = DataSource<Post>(data: [post, post, post])
         tableView = UITableView()
         tableView.register(UINib(nibName: "PostCell", bundle: nil), forCellReuseIdentifier: Post.cellIdentifier())
         tableView.dataSource = dataSource
@@ -31,6 +31,13 @@ class PostsDataSourceTests: XCTestCase {
     func testDataSourceNumberOfItems() {
         XCTAssertEqual(dataSource.tableView(tableView, numberOfRowsInSection: 0), 3)
         XCTAssertEqual(dataSource.numberOfSectionsInTableView(tableView: tableView), 1)
+    }
+    
+    func testDataSourceClearData() {
+        dataSource.clearData()
+        tableView.reloadData()
+        XCTAssertEqual(dataSource.numberOfSectionsInTableView(tableView: tableView), 1)
+        XCTAssertEqual(dataSource.tableView(tableView, numberOfRowsInSection: 0), 0)
     }
     
     func testDataSourceContent() {

@@ -16,7 +16,7 @@ class ResourceTests: XCTestCase {
     }
 
     func testUserResource() {
-        let resource = Resource<[User]>(url: JSONURL.users.rawValue) { data in
+        let resource = Resource<[User]>(url: JSONURL.users.url()) { data in
             let json = try? JSONSerialization.jsonObject(with: data, options: [])
             let arrayOfJson = json as? [JSONDict]
             return arrayOfJson?.flatMap(User.init)
@@ -26,7 +26,7 @@ class ResourceTests: XCTestCase {
     }
     
     func testPostResource() {
-        let resource = Resource<[Post]>(url: JSONURL.posts(userId: "1").rawValue) { data in
+        let resource = Resource<[Post]>(url: JSONURL.posts(userId: "1").url()) { data in
             let json = try? JSONSerialization.jsonObject(with: data, options: [])
             let arrayOfJson = json as? [JSONDict]
             return arrayOfJson?.flatMap(Post.init)

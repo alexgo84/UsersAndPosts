@@ -13,7 +13,7 @@ class WebServiceTests: XCTestCase {
     
     func testWebServiceUsers() {
         
-        let userResource = Resource<[User]>(url: JSONURL.users.rawValue) { data in
+        let userResource = Resource<[User]>(url: JSONURL.users.url()) { data in
             let json = try? JSONSerialization.jsonObject(with: data, options: [])
             let arrayOfJson = json as? [JSONDict]
             return arrayOfJson?.flatMap(User.init)
@@ -39,7 +39,7 @@ class WebServiceTests: XCTestCase {
     }
     
     func testWebServicePosts() {
-        let postResource = Resource<[Post]>(url: JSONURL.posts(userId: "1").rawValue) { data in
+        let postResource = Resource<[Post]>(url: JSONURL.posts(userId: "1").url()) { data in
             let json = try? JSONSerialization.jsonObject(with: data, options: [])
             let arrayOfJson = json as? [JSONDict]
             return arrayOfJson?.flatMap(Post.init)

@@ -10,14 +10,17 @@ import Foundation
 
 // Not 'final' for testing
 class APIClient: NSObject {
+    
+    let webService: WebService = WebService()
+    
     func getAllUsers(completion: @escaping ([User]?, Error?) -> ()) {
-        WebService().load(resource: User.all) { users, error in
+        webService.load(resource: User.all) { users, error in
             completion(users, error)
         }
     }
     
     func getAllPosts(userId: NSNumber, completion: @escaping ([Post]?, Error?) -> ()) {
-        WebService().load(resource: Post.posts(userId: userId), completion: { (posts, error) in
+        webService.load(resource: Post.posts(userId: userId), completion: { (posts, error) in
             completion(posts, error)
         })
     }

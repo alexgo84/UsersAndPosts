@@ -13,11 +13,6 @@ public protocol Identifiable {
     static func cellIdentifier() -> String
 }
 
-public enum DataType {
-    case users
-    case posts
-}
-
 struct Section <T: Identifiable>{
     public var title: String?
     public let cellData: [T]
@@ -30,21 +25,25 @@ struct Section <T: Identifiable>{
 
 
 class DataSource<T: Identifiable>: NSObject, UITableViewDataSource {
-    public var sections: [Section<T>] = []
-    private let dataType: DataType
+    public var sections: [Section<T>] {
+        didSet {
+            if sections.count == 0 {
+                fatalError("Cannot set less than one section")
+            }
+        }
+    }
     
-    init(data: [T], dataType: DataType) {
+    init(data: [T] = []) {
         guard T.self == User.self || T.self == Post.self else {
             fatalError("Data source for type \(T.self) is not supported!")
         }
         
         self.sections = [Section<T>(title: nil, cellData: data)]
-        self.dataType = dataType
+        super.init()
     }
     
     public func clearData() {
-        print("clear data")
-        sections = []
+        sections = [Section<T>(title: nil, cellData: [])]
     }
     
     //MARK: - <UITableViewDataSource>
@@ -68,11 +67,13 @@ class DataSource<T: Identifiable>: NSObject, UITableViewDataSource {
 
         let cellData: T = sections[indexPath.section].cellData[indexPath.row]
 
-        switch dataType {
-        case .users:
+        switch T.cellIdentifier() {
+        case User.cellIdentifier():
             UserCellConfigurator(user: cellData as! User).configure(cell: cell as! UserCell)
-        case .posts:
+        case Post.cellIdentifier():
             PostCellConfigurator(post: cellData as! Post).configure(cell: cell as! PostCell)
+        default:
+            fatalError("Unknown identifier \(T.cellIdentifier())")
         }
         
         return cell

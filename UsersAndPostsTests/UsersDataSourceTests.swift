@@ -21,7 +21,7 @@ class UsersDataSourceTests: XCTestCase {
         let user1 = StubLoader().userFromStub()
         let user2 = StubLoader().emptyUserFromStub()
         
-        dataSource = DataSource<User>(data: [user1, user2], dataType: DataType.users)
+        dataSource = DataSource<User>(data: [user1, user2])
         tableView = UITableView()
         tableView.register(UINib(nibName: "UserCell", bundle: nil), forCellReuseIdentifier: User.cellIdentifier())
         tableView.dataSource = dataSource

@@ -10,12 +10,8 @@ import UIKit
 
 class PostTableViewController: UITableViewController {
     
-    var apiClient: APIClient? {
-        didSet {
-            print("nooo")
-        }
-    }
-    let dataSource = DataSource<Post>(data: [], dataType: .posts)
+    var apiClient: APIClient?
+    let dataSource = DataSource<Post>()
     var user: User!
 
     // MARK: - Public Methods

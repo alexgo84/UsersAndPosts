@@ -16,7 +16,7 @@ class UserTableViewController: UITableViewController {
     // Public for testing
     public var apiClient: APIClient!
     
-    let dataSource = DataSource<User>(data: [], dataType: .users)
+    let dataSource = DataSource<User>()
     var postTableViewController: PostTableViewController? = nil
 
     // MARK: - UIViewController
@@ -47,7 +47,7 @@ class UserTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let user = dataSource.sections[0].cellData[indexPath.row]
         if let postTableViewController = postTableViewController {
-            //postTableViewController.clearData()
+            postTableViewController.clearData()
             postTableViewController.fetchPostsAsync(for: user)
             splitViewController?.showDetailViewController(postTableViewController, sender: nil)
         }

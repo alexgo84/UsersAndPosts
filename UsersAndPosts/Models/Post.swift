@@ -47,7 +47,7 @@ extension Post {
 extension Post {
     static func posts(userId: NSNumber) -> Resource<[Post]> {
         let userIdString = String(describing: userId)
-        return Resource<[Post]>(url: JSONURL.posts(userId: userIdString).rawValue) { data in
+        return Resource<[Post]>(url: JSONURL.posts(userId: userIdString).url()) { data in
             let json = try? JSONSerialization.jsonObject(with: data, options: [])
             let arrayOfJson = json as? [JSONDict]
             return arrayOfJson?.flatMap(Post.init)

@@ -55,7 +55,7 @@ extension User {
 }
 
 extension User {
-    static let all = Resource<[User]>(url: JSONURL.users.rawValue) { data in
+    static let all = Resource<[User]>(url: JSONURL.users.url()) { data in
         let json = try? JSONSerialization.jsonObject(with: data, options: [])
         let arrayOfJson = json as? [JSONDict]
         return arrayOfJson?.flatMap(User.init)

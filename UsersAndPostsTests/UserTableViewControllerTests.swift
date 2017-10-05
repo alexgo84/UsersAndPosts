@@ -39,5 +39,15 @@ class UserTableViewControllerTests: XCTestCase {
         XCTAssertEqual(sut.tableView.numberOfSections, 1)
         XCTAssertEqual(sut.tableView.visibleCells.count, 0)
     }
+    
+    func testDataCleaned() {
+        let apiClient = FakeAPIClient()
+        apiClient.fail = false
+        sut.apiClient = apiClient
+        _ = sut.view
+        
+        XCTAssertEqual(sut.tableView.numberOfSections, 1)
+        XCTAssertEqual(sut.tableView.visibleCells.count, 2)
+    }
 }
 
